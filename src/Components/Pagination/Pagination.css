@@ -1,0 +1,47 @@
+.pag{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    flex-direction: row;
+    padding-left: 1080px;
+}
+
+ul{
+list-style-type: none;
+display: flex;
+margin-left: 10px;
+padding-top: 22px;
+
+}
+
+ul li{
+    margin-right: 10px;
+    background-color: whitesmoke;
+    width: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+
+}
+
+.pag button{
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+
+}
+li:hover{
+    transform: scale(1.2);
+}
+
+.fs{
+    margin-right: -30px;
+}
+
+.pag button:hover{
+    transform: scale(1.2);
+}
+
+ul li:active{
+    background-color: lightcoral;
+
+}

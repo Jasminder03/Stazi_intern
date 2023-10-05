@@ -1,0 +1,82 @@
+.cd{
+    float: left;
+    width: 33.33%;
+    padding-left: 50px;
+}
+.cd2{
+    float: left;
+    width: 33.33%;
+    padding-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+
+.clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+}
+
+body{
+    background-color: #dde7f7;
+}
+
+.bar{
+    background-color: #cce1f9;
+    width: 100%;
+    margin-bottom: -17px;
+    height:50px;
+    display: flex;
+
+}
+
+input{
+    width: 300px;
+    border-radius: 40px;
+    border: none;
+    margin-left: 80px;
+    margin-top: 7px;
+    height: 35px;
+}
+
+::placeholder{
+    padding-left: 10px;
+}
+
+.sch{
+    margin-left: -38px;
+    margin-top: 13px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+
+}
+
+.link {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.link a{
+    margin-right: 35px;
+
+}
+
+.kd{
+    margin-left: -5px;
+}
+
+h2{
+   position: relative;
+   margin-bottom: 30px;
+   margin-left: 40%;
+}
